@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.screen-background {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 16px 0;
+}

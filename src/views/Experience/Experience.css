@@ -1,0 +1,65 @@
+.experience-background {
+  display: flex;
+}
+
+.timeline-background {
+  width: 50%;
+}
+
+.timeline-item {
+  display: flex;
+  width: 50%;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.timeline-item:hover {
+  background-color: cornflowerblue;
+}
+
+.timeline-ball {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background: royalblue;
+}
+
+.experience-info {
+  padding: 24px;
+  font-size: 10pt;
+}
+
+.experience-info h4,
+p {
+  margin: 0;
+}
+
+.highlight-background {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: calc(100%);
+  background: royalblue;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+}
+
+.highlight-background h1,
+h4,
+p {
+  margin: 8px;
+  font-family: 'Times New Roman';
+}
+
+.highlight-picture {
+  width: 100%;
+  height: 100%;
+}
